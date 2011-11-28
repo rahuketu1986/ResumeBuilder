@@ -1,0 +1,31 @@
+body{
+	margin: 100px;
+}
+
+header{
+	text-transform: uppercase;
+	text-align:center;
+	color: blue;
+	
+}
+
+#contentResume{
+	display:block;
+	border: double;
+}
+
+footer{
+	text-align: center;
+	font-family: Courier;
+}
+
+.Section{
+	display: block;
+	border:thin;
+	border-style: inherit;
+}
+
+.Section .SectionHeading{
+	text-transform: uppercase;
+}
+
