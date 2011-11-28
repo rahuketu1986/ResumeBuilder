@@ -1,5 +1,6 @@
 body{
-	margin: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 header{
@@ -19,13 +20,19 @@ footer{
 	font-family: Courier;
 }
 
-.Section{
+#contentResume .Section{
 	display: block;
 	border:thin;
 	border-style: inherit;
+	opacity: 10%;
 }
 
-.Section .SectionHeading{
+#contentResume .Section .SectionHeading{
 	text-transform: uppercase;
+	color:#FFFFFF;
+	background-color: #0000FF;
 }
 
+#contentResume .Section .SectionDescription .SubSection{
+	display: inline;
+}
