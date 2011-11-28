@@ -1,12 +1,15 @@
 body{
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	font-size: 100%
 }
 
 header{
 	text-transform: uppercase;
 	text-align:center;
 	color: blue;
+	font-size: 1.5em;
 	
 }
 
@@ -14,6 +17,7 @@ header{
 	display:block;
 	border: double;
 }
+
 
 footer{
 	text-align: center;
@@ -30,9 +34,18 @@ footer{
 #contentResume .Section .SectionHeading{
 	text-transform: uppercase;
 	color:#FFFFFF;
-	background-color: #0000FF;
+	background-image:url('TopGradient.gif');
+	background-repeat: no-repeat;
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.2em;
 }
 
-#contentResume .Section .SectionDescription .SubSection{
+.NoUnderline{
+	text-decoration: none;
+}
+
+.SubSection{
 	display: inline;
 }
+
