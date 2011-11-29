@@ -1,10 +1,9 @@
 body{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-bottom: 5%;
-	font-size: 100%
+	font-size: 115%;
 }
-
 header{
 	text-transform: uppercase;
 	text-align:center;
@@ -23,14 +22,14 @@ footer{
 	font-family: Courier;
 }
 
-#contentResume .Section{
+#contentResume div.Section{
 	display: block;
 	border:thin;
 	border-style: inherit;
 	opacity: 10%;
 }
-
-#contentResume .Section .SectionHeading{
+																						
+#contentResume div.Section div.SectionHeading{
 	text-transform: uppercase;
 	color:#FFFFFF;
 	background-image:url('TopGradient.gif');
@@ -40,11 +39,11 @@ footer{
 	font-size: 1.2em;
 }
 
-.NoUnderline{
+#contentResume div.Section div.SectionDescription a.headlink {
 	text-decoration: none;
 }
 
-.SubSection{
+#contentResume div.Section div.SubSection{
 	display: inline;
 }
 
