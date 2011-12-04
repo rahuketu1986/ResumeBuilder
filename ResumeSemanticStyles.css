@@ -1,0 +1,132 @@
+body{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 0px;
+	font-size: 115%;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+#contentResume{
+	display:block;
+	border: double;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+
+header {
+	text-transform: uppercase;
+	text-align:center;
+	color: blue;
+	font-size: 1.5em;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+header h1{
+	padding: 0;
+	margin:0;
+}
+#contentResume section.Section{
+	display: block;
+	border:thin;
+	border-style: inherit;
+	opacity: 10%;
+	padding-top:0px;
+	padding-bottom: 0px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#contentResume section.Section header{
+	text-transform: uppercase;
+	text-align:left;
+	color:#FFFFFF;
+	background-image:url('TopGradient.gif');
+	background-repeat: no-repeat;
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#contentResume section.Section header h2{
+	padding: 0;
+	margin:0;
+}
+
+#contentResume section.Section div.SectionDescription article.Post{
+	border:thin;
+	border-bottom-style: groove;
+}
+
+#contentResume section.Section div.SectionDescription article.Post header{
+	text-transform: capitalize;
+	text-align:left;
+	color:#000000;
+	background-image: none;
+	background-color:transparent;
+	font-family: serif;
+	font-style: normal;
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 0px;
+}
+#contentResume section.Section div.SectionDescription article.Post header h3{
+	padding: 0;
+	margin:0;
+}
+
+#contentResume section.Section div.SectionDescription article.Post header ol{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+#contentResume section.Section div.SectionDescription article.Post div.PostDescription p
+{
+	padding-top: 0;
+	margin-top:0;
+}
+
+#contentResume section.Section div.SectionDescription article.Post div.PostDescription ul
+{
+	padding-top: 0;
+	margin-top:0;
+}
+
+#contentResume section.Section div.SectionDescription article.Post div.PostDescription section.PostDescriptionSection header h4
+{
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+
+
+#contentResume section.Section div.SectionDescription article.Post div.PostDescription section.PostDescriptionSection div.PostDescriptionSection_Description p
+{
+	padding-top: 0;
+	margin-top:0;
+}
+
+#contentResume section.Section div.SectionDescription article.Post div.PostDescription section.PostDescriptionSection div.PostDescriptionSection_Description ul
+{
+	padding-top: 0;
+	margin-top:0;
+}
+
+
+footer{
+	text-align: center;
+	font-family: Courier;
+}
+
+
+	
